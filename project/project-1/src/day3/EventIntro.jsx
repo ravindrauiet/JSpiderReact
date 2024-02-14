@@ -4,13 +4,17 @@ const EventIntro = () => {
 
     let handleOnDoubleClick = (e) => {
      document.body.style.backgroundColor = "red";
-     document.body.style.color = "white";
+     document.body.style.color = "black";
+     e.target.style.backgroundColor = "yellow"
     }
 
-
+    let handleEvent = (e) =>{
+      console.log(e.key);
+    }
   return (
     <div>
-      <h1>Heading</h1>
+      <h1 onMouseOver={handleOnDoubleClick}>Heading</h1>
+      <input type="text" onKeyDown={handleEvent} />
       <p style={{ width: "500px", height: "500px", border: "2px solid black" , overflow : "auto" }} onDoubleClick = { handleOnDoubleClick }>
         lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
         ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
