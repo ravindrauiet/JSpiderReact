@@ -2,7 +2,7 @@ import React from "react";
 
 const EventIntro = () => {
 
-    let handleOnScroll = (e) => {
+    let handleOnDoubleClick = (e) => {
      document.body.style.backgroundColor = "red";
      document.body.style.color = "white";
     }
@@ -11,7 +11,7 @@ const EventIntro = () => {
   return (
     <div>
       <h1>Heading</h1>
-      <p style={{ width: "500px", height: "500px", border: "2px solid black" , overflow : "auto" }} onScroll = { handleOnScroll }>
+      <p style={{ width: "500px", height: "500px", border: "2px solid black" , overflow : "auto" }} onDoubleClick = { handleOnDoubleClick }>
         lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
         ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
         dis parturient montes, nascetur ridiculus mus. Donec quam felis,
