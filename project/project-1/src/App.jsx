@@ -1,7 +1,6 @@
-import { useState, Component }  from 'react'
-import './App.css'
-import Props from './componrnts/Props'
-import EventIntro from './day3/EventIntro'
+// import { useState, Component }  from 'react'
+// import Props from './componrnts/Props'
+// import EventIntro from './day3/EventIntro'
 import UseStateAll from './UseState/UseStateAll'
 
 
