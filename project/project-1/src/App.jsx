@@ -2,6 +2,7 @@
 // import Props from './componrnts/Props'
 // import EventIntro from './day3/EventIntro'
 import UseStateAll from './UseState/UseStateAll'
+import ConditionalRending from './conditionalRending/ConditionalRending'
 
 
 
@@ -10,7 +11,8 @@ function App() {
     <div>
       {/* <Props /> */}
       {/* <EventIntro /> */}
-      <UseStateAll />
+      {/* <UseStateAll /> */}
+      <ConditionalRending />
     </div>
   )
 }
