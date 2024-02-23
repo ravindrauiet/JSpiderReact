@@ -4,9 +4,11 @@ import App from './App.jsx'
 import './index.css'
 import Mall from './ContextAPIIntro/Mall.jsx'
 import mall from './ContextAPIIntro/Mall.jsx'
+import Vmart from './ContextAPIIntro/Vmart.jsx'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <Mall>
+  <Vmart>
     <App />
-  </Mall>,
+  </Vmart>,
 )

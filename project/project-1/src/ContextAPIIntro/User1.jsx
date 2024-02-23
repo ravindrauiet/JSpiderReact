@@ -11,6 +11,7 @@ const User1 = () => {
   return (
     <div>
       <h1>Heading</h1>
+      <h2>{cloth }</h2>
     </div>
   )
 }
