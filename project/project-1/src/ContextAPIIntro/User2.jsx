@@ -7,7 +7,9 @@ const User2 = () => {
 
     return (
         <div>
-            {/* {vmartcart.cloth}; */}
+            {vmartcart.cloth}
+            {vmartcart.device}
+
         </div>
     );
 }
