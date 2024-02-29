@@ -2,6 +2,8 @@
 // import Props from './componrnts/Props'
 // import EventIntro from './day3/EventIntro'
 import ContextAPIIntro from './ContextAPIIntro/ContextAPIIntro'
+import ApiHandelling from './Handle API/ApiHandelling'
+import UseEffectAPIContext from './Handle API/UseEffectAPIContext'
 import UseEffectComponet from './UseEffectComponents/UseEffectComponet'
 import UseStateAll from './UseState/UseStateAll'
 import ConditionalRending from './conditionalRending/ConditionalRending'
@@ -18,7 +20,9 @@ function App() {
       {/* <ConditionalRending /> */}
       {/* <UseRefHook /> */}
       {/* <ContextAPIIntro /> */}
-      <UseEffectComponet />
+      {/* <UseEffectComponet /> */}
+      {/* <ApiHandelling ></ApiHandelling> */}
+      <UseEffectAPIContext />
     </div>
   )
 }
