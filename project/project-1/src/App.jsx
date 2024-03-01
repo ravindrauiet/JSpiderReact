@@ -7,6 +7,7 @@ import UseEffectAPIContext from './Handle API/UseEffectAPIContext'
 import UseEffectComponet from './UseEffectComponents/UseEffectComponet'
 import UseStateAll from './UseState/UseStateAll'
 import ConditionalRending from './conditionalRending/ConditionalRending'
+import UseMemoHook from './useMemoHook/UseMemoHook'
 import UseRefHook from './useRefHook/UseRefHook'
 
 
@@ -22,7 +23,8 @@ function App() {
       {/* <ContextAPIIntro /> */}
       {/* <UseEffectComponet /> */}
       {/* <ApiHandelling ></ApiHandelling> */}
-      <UseEffectAPIContext />
+      {/* <UseEffectAPIContext /> */}
+      <UseMemoHook />
     </div>
   )
 }
