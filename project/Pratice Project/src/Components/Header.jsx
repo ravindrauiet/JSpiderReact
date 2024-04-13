@@ -23,11 +23,12 @@ function Header() {
             </ul>
 
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                <a href="/login" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
+                {/* <a href="/login" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a> */}
+                <Link to="/login" className="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></Link>
             </div>
         </nav>
 
-        <h1 className="text-center text-sky-400 h-12"> Pratice Project</h1>
+        <h1 className="text-center text-red-400 bg-gray-300 h-20 text-5xl font-bold"> Pratice Project</h1>
       </header>
     </div>
   )
