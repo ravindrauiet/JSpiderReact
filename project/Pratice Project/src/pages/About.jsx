@@ -3,6 +3,7 @@ import Button from '../Components/Button'
 import ListComponent from '../Components/ListComponent'
 import StyledComponent from '../Components/StyledComponent';
 import ParagraphComponent from '../Components/ParagraphComponent';
+import DivComponent from '../Components/DivComponent';
 
 function About() {
   const data = [
@@ -34,6 +35,8 @@ function About() {
       </StyledComponent>
 
       <ParagraphComponent > <p>Lorem Ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit facilis tempora iure repudiandae. Eligendi saepe id quae ullam iure nam modi, esse repudiandae a voluptatem cum ipsum sed deserunt voluptatum perferendis facilis ad, porro suscipit? Aliquid fugit doloremque officiis voluptatum sunt, odit inventore aperiam error maxime commodi exercitationem, minima quibusdam in corrupti similique, quidem dolor nostrum voluptate accusamus perspiciatis eligendi ex. Sit voluptatum necessitatibus obcaecati veritatis ducimus reprehenderit, earum architecto deleniti illum error fugit magni sapiente suscipit est optio, voluptas eius voluptatem culpa? Sint voluptatibus at ea deleniti necessitatibus quaerat nemo, est ex quo totam! Vero doloremque illo a asperiores.</p></ParagraphComponent>
+
+      <DivComponent className="border border-gray-400 rounded-lg shadow-md p-6 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, sint dignissimos! Placeat excepturi fuga asperiores, enim alias molestiae corporis! Accusantium at quasi id debitis ex sint laudantium est dolor ut ducimus nobis quidem, nihil facere officia, similique ea adipisci pariatur omnis libero veniam. Veritatis, quaerat perspiciatis. Ipsum necessitatibus autem sint alias. Fugit est vitae incidunt provident unde molestiae quis illum necessitatibus. Iste consectetur explicabo obcaecati consequatur velit est repudiandae expedita debitis enim libero possimus, impedit ea officia corporis error doloremque eaque illo blanditiis dicta inventore ducimus incidunt quis. Porro corrupti omnis explicabo culpa eligendi debitis assumenda tenetur illo aliquid quod.</DivComponent>
 
       {/* Reuseable ListComponent */}
       <ListComponent data={data}/>
