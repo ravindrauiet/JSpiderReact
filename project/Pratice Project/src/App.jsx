@@ -4,6 +4,7 @@ import Home from "./pages/Home"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
 import Login from "./pages/Login"
+import FooterComponent from "./Components/FooterComponent"
 
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
       <Route path ="/login" element={<Login />}/>
 
     </Routes>
+
+    <FooterComponent />
   </BrowserRouter>
 }
 
