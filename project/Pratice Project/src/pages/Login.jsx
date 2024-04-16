@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../Components/Button'
 import LinkComponent from '../Components/LinkComponent'
+import FormComponent from '../Components/FormComponent'
 
 function Login() {
   return (
@@ -10,6 +11,8 @@ function Login() {
       <Button className ={"bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 m-4 rounded"}><h1>Sign up</h1></Button>
 
       <LinkComponent link={"/"} >Home</LinkComponent>
+
+      <FormComponent />
     </div>
   )
 }
