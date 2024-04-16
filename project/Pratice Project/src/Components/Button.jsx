@@ -7,7 +7,7 @@ function Button(props) {
       {/* <button style={style ? style: {background:'green', color:'white' , padding:'5px' , margin:'10px'}} onClick={onClick}>{children}</button> */}
       
       
-      <button className={className } onClick={onClick}>{children}</button>
+      <button className={className ? className: "bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 m-4 rounded"} onClick={onClick}>{children}</button>
     </>
   )
 }
