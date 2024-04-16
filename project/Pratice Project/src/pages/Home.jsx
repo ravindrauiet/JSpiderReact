@@ -1,11 +1,13 @@
 import React from 'react'
 import Button from '../Components/Button'
 import ImageComponents from '../Components/ImageComponents'
+import NavigationComponent from '../Components/NavigationComponent'
 
 function Home() {
   return (
     <div>
       <h1 className={"bg-red-100 text-blue h-30 w-15 p-4 m-4 "}>Home</h1>
+      <Button > <NavigationComponent link="./project">Project</NavigationComponent> </Button>
       <div className={"display: inline-flex"}>
         {/* With Placeholder */}
         <ImageComponents
