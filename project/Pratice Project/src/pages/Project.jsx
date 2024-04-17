@@ -1,9 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react'
 import SectionComponent from '../Components/SectionComponent'
 import ArticleComponent from '../Components/ArticleComponent'
 import AnchorComponent from '../Components/AnchorComponent'
+import InputFieldComponent from '../Components/InputFieldComponent';
 
 function Project() {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
+  const handleEmailChange = (value) => {
+    setEmail(value);
+  };
+
+  const handlePasswordChange = (value) => {
+    setPassword(value);
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // Add your validation logic here
+  };
   return (
     <div>
       <SectionComponent >
@@ -31,6 +47,26 @@ function Project() {
         <AnchorComponent href="./" className="mr-4">Home</AnchorComponent>
 
         <AnchorComponent href="./about">About</AnchorComponent>
+
+      <form onSubmit={handleSubmit}>
+        <InputFieldComponent
+          type="email"
+          placeholder="Email"
+          value={email}
+          onChange={handleEmailChange}
+          onBlur={() => {}}
+          isValid={email && email.includes('@')} // Example validation, change as needed
+        />
+        <InputFieldComponent
+          type="password"
+          placeholder="Password"
+          value={password}
+          onChange={handlePasswordChange}
+          onBlur={() => {}}
+          isValid={password.length >= 6} // Example validation, change as needed
+        />
+        <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded mt-4">Submit</button>
+      </form>
 
     </div>
   )
