@@ -1,6 +1,7 @@
 import React from 'react'
 import SectionComponent from '../Components/SectionComponent'
 import ArticleComponent from '../Components/ArticleComponent'
+import AnchorComponent from '../Components/AnchorComponent'
 
 function Project() {
   return (
@@ -26,6 +27,10 @@ function Project() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
           </p>
         </ArticleComponent>
+
+        <AnchorComponent href="./" className="mr-4">Home</AnchorComponent>
+
+        <AnchorComponent href="./about">About</AnchorComponent>
 
     </div>
   )
