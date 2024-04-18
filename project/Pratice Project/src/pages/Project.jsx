@@ -5,6 +5,7 @@ import AnchorComponent from '../Components/AnchorComponent'
 import InputFieldComponent from '../Components/InputFieldComponent';
 import CardComponent from '../Components/CardComponent';
 import BackgroundImageComponent from '../Components/BackgroundImageComponent';
+import GridLayoutComponent from '../Components/GridLayoutComponent';
 
 function Project() {
   const [email, setEmail] = useState('');
@@ -30,7 +31,8 @@ function Project() {
         backgroundImage="https://unsplash.com/photos/a-group-of-white-and-gold-tiles-on-a-white-surface-nPZ68nehUUo"
       />
       
-      
+      <GridLayoutComponent>Block 1</GridLayoutComponent>
+
       <div className="flex justify-center items-center h-screen">
       <CardComponent imageUrl="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dailyexcelsior.com%2Fthe-uniting-power-of-bhagwan-shri-ram%2F&psig=AOvVaw0QZZ3I1wqoifd3EoaAyKKD&ust=1713535876503000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKC2qv74y4UDFQAAAAAdAAAAABAE" title="hello" description="ram ram"/>
       <CardComponent imgurl="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FJai_Shri_Ram&psig=AOvVaw0QZZ3I1wqoifd3EoaAyKKD&ust=1713535876503000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKC2qv74y4UDFQAAAAAdAAAAABAJ" title="hello" description="ram ram"/>
