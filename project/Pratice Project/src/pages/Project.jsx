@@ -4,6 +4,7 @@ import ArticleComponent from '../Components/ArticleComponent'
 import AnchorComponent from '../Components/AnchorComponent'
 import InputFieldComponent from '../Components/InputFieldComponent';
 import CardComponent from '../Components/CardComponent';
+import BackgroundImageComponent from '../Components/BackgroundImageComponent';
 
 function Project() {
   const [email, setEmail] = useState('');
@@ -23,14 +24,23 @@ function Project() {
   };
   return (
     <div>
+      <BackgroundImageComponent 
+        title="Welcome to My Website"
+        subtitle="Explore our services and offerings"
+        backgroundImage="https://unsplash.com/photos/a-group-of-white-and-gold-tiles-on-a-white-surface-nPZ68nehUUo"
+      />
+      
+      
       <div className="flex justify-center items-center h-screen">
       <CardComponent imageUrl="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dailyexcelsior.com%2Fthe-uniting-power-of-bhagwan-shri-ram%2F&psig=AOvVaw0QZZ3I1wqoifd3EoaAyKKD&ust=1713535876503000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKC2qv74y4UDFQAAAAAdAAAAABAE" title="hello" description="ram ram"/>
       <CardComponent imgurl="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FJai_Shri_Ram&psig=AOvVaw0QZZ3I1wqoifd3EoaAyKKD&ust=1713535876503000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKC2qv74y4UDFQAAAAAdAAAAABAJ" title="hello" description="ram ram"/>
       <CardComponent imgurl="https://via.placeholder.com/300" title="hello" description="ram ram"/>
       <CardComponent imgurl="https://via.placeholder.com/300" title="hello" description="ram ram"/>
       <CardComponent imgurl="https://via.placeholder.com/300" title="hello" description="ram ram"/>
-
       </div>
+      
+
+      
       <SectionComponent >
         <h2 className="text-2xl font-bold mb-4">Section 1</h2>
         <p className="text-lg">Content for section 1 goes here.</p>
@@ -41,6 +51,8 @@ function Project() {
         <p className="text-lg">Content for section 2 goes here.</p>
       </SectionComponent>
 
+      
+      
       <ArticleComponent 
         title="Sample Article Title"
         author="John Doe"
@@ -53,10 +65,14 @@ function Project() {
           </p>
         </ArticleComponent>
 
-        <AnchorComponent href="./" className="mr-4">Home</AnchorComponent>
+      
+      
+      <AnchorComponent href="./" className="mr-4">Home</AnchorComponent>
 
-        <AnchorComponent href="./about">About</AnchorComponent>
+      <AnchorComponent href="./about">About</AnchorComponent>
 
+      
+      
       <form onSubmit={handleSubmit}>
         <InputFieldComponent
           type="email"
