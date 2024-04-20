@@ -8,6 +8,7 @@ function Home() {
     <div>
       <h1 className={"bg-red-100 text-blue h-30 w-15 p-4 m-4 "}>Home</h1>
       <Button ><NavigationComponent link="./usestate">Use State</NavigationComponent></Button>
+      <Button ><NavigationComponent link="./usehook">Hook Component</NavigationComponent></Button>
       <Button > <NavigationComponent link="./project">Project</NavigationComponent> </Button>
       <div className={"display: inline-flex"}>
         {/* With Placeholder */}

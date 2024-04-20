@@ -7,6 +7,7 @@ import Login from "./pages/Login"
 import FooterComponent from "./Components/FooterComponent"
 import Project from "./pages/Project"
 import UseStatePage from "./pages/UseStatePage"
+import HookPage from "./pages/HookPage"
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Route path ="/login" element={<Login />}/>
       <Route path ="/project" element={<Project />}/>
       <Route path ="/usestate" element={<UseStatePage />}/>
+      <Route path ="/usehook" element={<HookPage />}/>
 
     </Routes>
 
