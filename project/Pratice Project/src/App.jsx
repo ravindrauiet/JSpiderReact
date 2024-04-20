@@ -6,6 +6,7 @@ import Contact from "./pages/Contact"
 import Login from "./pages/Login"
 import FooterComponent from "./Components/FooterComponent"
 import Project from "./pages/Project"
+import UseStatePage from "./pages/UseStatePage"
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Route path ="/contact" element={<Contact />}/>
       <Route path ="/login" element={<Login />}/>
       <Route path ="/project" element={<Project />}/>
+      <Route path ="/usestate" element={<UseStatePage />}/>
 
     </Routes>
 
