@@ -1,6 +1,7 @@
 import React from 'react'
 import UseRef from '../Components/HooksComponents/UseRef'
 import UseMemo from '../Components/HooksComponents/UseMemo'
+import MainContext from '../Components/HooksComponents/MainContext'
 
 function HookPage() {
   return (
@@ -10,6 +11,8 @@ function HookPage() {
       <UseRef />
 
       <UseMemo />
+
+      <MainContext />
     </div>
     </div>
   )
