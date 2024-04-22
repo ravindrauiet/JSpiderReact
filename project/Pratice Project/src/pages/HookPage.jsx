@@ -2,6 +2,7 @@ import React from 'react'
 import UseRef from '../Components/HooksComponents/UseRef'
 import UseMemo from '../Components/HooksComponents/UseMemo'
 import MainContext from '../Components/HooksComponents/MainContext'
+import ConditionalRenderingWithRef from '../Components/HooksComponents/ConditionalRenderingWithRef'
 
 function HookPage() {
   return (
@@ -13,6 +14,8 @@ function HookPage() {
       <UseMemo />
 
       <MainContext />
+
+      <ConditionalRenderingWithRef />
     </div>
     </div>
   )
