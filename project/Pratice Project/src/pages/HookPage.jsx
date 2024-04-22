@@ -3,6 +3,8 @@ import UseRef from '../Components/HooksComponents/UseRef'
 import UseMemo from '../Components/HooksComponents/UseMemo'
 import MainContext from '../Components/HooksComponents/MainContext'
 import ConditionalRenderingWithRef from '../Components/HooksComponents/ConditionalRenderingWithRef'
+import EventHandlingwithuseRef from '../Components/HooksComponents/EventHandlingwithuseRef'
+
 
 function HookPage() {
   return (
@@ -16,6 +18,8 @@ function HookPage() {
       <MainContext />
 
       <ConditionalRenderingWithRef />
+
+      <EventHandlingwithuseRef />
     </div>
     </div>
   )
